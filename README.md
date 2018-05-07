@@ -1,5 +1,7 @@
 # undefined is not a theme
 
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/christianhg.undefined.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=christianhg.undefined)
+
 > A 🚀 blazing fast, 🔥 zero-config 🎨 theme for [Visual Studio Code](http://code.visualstudio.com/)
 
 Lol, just kidding. This is more along the lines of:
