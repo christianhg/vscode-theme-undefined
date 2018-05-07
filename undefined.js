@@ -92,6 +92,7 @@ const defaults = [
   'punctuation.accessor',
   'punctuation.separator.comma',
   'support.class.console',
+  'support.type.property-name.css',
   'support.variable',
   'variable.language.arguments',
   'variable.other.constant.property',
