@@ -76,6 +76,7 @@ const attentionSeekers = [
  * need to reset.
  */
 const defaults = [
+  'entity.name.function.tagged-template',
   'keyword.control.flow',
   'keyword.control.loop',
   'keyword.operator.new',

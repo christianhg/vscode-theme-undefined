@@ -283,6 +283,12 @@
       }
     },
     {
+      "scope": "entity.name.function.tagged-template",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
       "scope": "keyword.control.flow",
       "settings": {
         "foreground": "#ABB2BF"
