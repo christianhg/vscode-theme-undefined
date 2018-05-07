@@ -373,7 +373,7 @@
       }
     },
     {
-      "scope": "support.class.console",
+      "scope": "support.class",
       "settings": {
         "foreground": "#ABB2BF"
       }

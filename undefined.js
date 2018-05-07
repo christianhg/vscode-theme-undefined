@@ -91,7 +91,7 @@ const defaults = [
   'meta.template.expression',
   'punctuation.accessor',
   'punctuation.separator.comma',
-  'support.class.console',
+  'support.class',
   'support.type.property-name.css',
   'support.variable',
   'variable.language.arguments',
