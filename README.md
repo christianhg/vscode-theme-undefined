@@ -10,8 +10,8 @@ Lol, just kidding. This is more along the lines of:
 
 ## Highlights
 
-* Dark and downtoned
-* Few colors, semantically used
+* Dark and toned-down
+* Few colours, semantically used
 * Uses one colour for all literals
 * Emphasizes comments and `this`
 * De-emphasizes TypeScript types
@@ -35,7 +35,7 @@ Lol, just kidding. This is more along the lines of:
 
 ## Motivations, Goals and Explanations
 
-* The theme aims to provide a similar, downtoned look across languages used for web development (`.js`, `.html`, `.css`, `.json`...).
+* The theme aims to provide a similar, toned-down look across languages used for web development (`.js`, `.html`, `.css`, `.json`...).
 * Fewer colour categories makes it easier to scan a piece of code and figure out what is what.
 * It's simply not feasible to give all literals distinct colours. Therefore they are all just given the same colour.
 * `this` makes code harder to understand. Therefore it is emphasized to make sure you don't miss it.
