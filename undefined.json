@@ -55,6 +55,12 @@
       }
     },
     {
+      "scope": "keyword.control.default",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "keyword.control.export",
       "settings": {
         "foreground": "#5C6370"

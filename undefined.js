@@ -21,6 +21,7 @@ const nonEssentials = [
   'cast.expr.ts',
   'keyword.control.as.ts',
   'keyword.control.at-rule.import',
+  'keyword.control.default',
   'keyword.control.export',
   'keyword.control.from',
   'keyword.control.import',
