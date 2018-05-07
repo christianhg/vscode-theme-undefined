@@ -1,46 +1,46 @@
 {
-  "name": "undefined",
-  "version": "1.0.0",
-  "displayName": "undefined",
-  "description": "undefined is not a theme",
-  "publisher": "christianhg",
-  "scripts": {
-    "build": "node undefined.js",
-    "prettier": "prettier --write *.{md,js}"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettier"
+    "name": "undefined",
+    "version": "1.0.1",
+    "displayName": "undefined",
+    "description": "undefined is not a theme",
+    "publisher": "christianhg",
+    "scripts": {
+        "build": "node undefined.js",
+        "prettier": "prettier --write *.{md,js}"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run prettier"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/christianhg/vscode-theme-undefined"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes"
+    ],
+    "engines": {
+        "vscode": "*"
+    },
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "undefined",
+                "uiTheme": "vs-dark",
+                "path": "./undefined.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "color": "^3.0.0",
+        "husky": "^0.14.3",
+        "jsonfile": "^4.0.0",
+        "prettier": "^1.12.1"
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/christianhg/vscode-theme-undefined"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "VSCode",
-    "Themes"
-  ],
-  "engines": {
-    "vscode": "*"
-  },
-  "icon": "icon.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "undefined",
-        "uiTheme": "vs-dark",
-        "path": "./undefined.json"
-      }
-    ]
-  },
-  "devDependencies": {
-    "color": "^3.0.0",
-    "husky": "^0.14.3",
-    "jsonfile": "^4.0.0",
-    "prettier": "^1.12.1"
-  }
 }
