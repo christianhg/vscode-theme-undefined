@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "tsc index.ts",
+    "prettier": "prettier --write *.ts"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.1",
+    "typescript": "^2.8.3"
+  }
+}
