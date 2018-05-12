@@ -199,6 +199,12 @@
       }
     },
     {
+      "scope": "keyword.other.important",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
       "scope": "variable.language.this",
       "settings": {
         "foreground": "#E06C75"

@@ -67,6 +67,7 @@ const functions = ['meta.function-call', 'new.expr', 'support.function']
 const attentionSeekers = [
   'comment',
   'keyword.other.debugger',
+  'keyword.other.important',
   'variable.language.this',
   'variable.other.jsdoc',
 ]
