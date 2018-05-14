@@ -41,13 +41,12 @@ const nonEssentials = [
 ]
 
 const literals = [
+  // Includes booleans, null and undefined
   'constant.language',
   'constant.numeric',
   'string.quoted',
   'string.regexp',
   'string.template',
-  // Includes booleans, null and undefined
-  'support.constant',
 ]
 
 const operators = [

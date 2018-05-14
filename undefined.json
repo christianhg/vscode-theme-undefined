@@ -181,12 +181,6 @@
       }
     },
     {
-      "scope": "support.constant",
-      "settings": {
-        "foreground": "#98C379"
-      }
-    },
-    {
       "scope": "comment",
       "settings": {
         "foreground": "#E06C75"
