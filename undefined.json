@@ -289,6 +289,12 @@
       }
     },
     {
+      "scope": "meta.function-call.arguments",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
       "scope": "keyword.control.flow",
       "settings": {
         "foreground": "#ABB2BF"

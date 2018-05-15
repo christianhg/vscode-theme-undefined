@@ -77,6 +77,7 @@ const attentionSeekers = [
  */
 const defaults = [
   'entity.name.function.tagged-template',
+  'meta.function-call.arguments',
   'keyword.control.flow',
   'keyword.control.loop',
   'keyword.operator.new',
