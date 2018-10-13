@@ -241,7 +241,19 @@
       }
     },
     {
+      "scope": "keyword.operator.list",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
       "scope": "keyword.operator.logical",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": "keyword.operator.pipe",
       "settings": {
         "foreground": "#D19A66"
       }
