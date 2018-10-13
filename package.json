@@ -38,9 +38,9 @@
         ]
     },
     "devDependencies": {
-        "color": "^3.0.0",
-        "husky": "^0.14.3",
-        "jsonfile": "^4.0.0",
-        "prettier": "^1.12.1"
+        "color": "^3.1.0",
+        "husky": "^1.1.2",
+        "jsonfile": "^5.0.0",
+        "prettier": "^1.14.3"
     }
 }
