@@ -19,7 +19,6 @@ const cyan = color('#56B6C2')
 
 const nonEssentials = [
   'cast.expr.ts',
-  'constant.language.import-export-all',
   'keyword.control.as.ts',
   'keyword.control.at-rule.import',
   'keyword.control.default',
@@ -79,6 +78,7 @@ const attentionSeekers = [
  * need to reset.
  */
 const defaults = [
+  'constant.language.import-export-all',
   'entity.name.function.tagged-template',
   'meta.function-call.arguments',
   'keyword.control.flow',
