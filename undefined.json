@@ -43,6 +43,12 @@
       }
     },
     {
+      "scope": "constant.language.import-export-all",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "keyword.control.as.ts",
       "settings": {
         "foreground": "#5C6370"

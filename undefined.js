@@ -19,6 +19,7 @@ const cyan = color('#56B6C2')
 
 const nonEssentials = [
   'cast.expr.ts',
+  'constant.language.import-export-all',
   'keyword.control.as.ts',
   'keyword.control.at-rule.import',
   'keyword.control.default',
