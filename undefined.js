@@ -63,7 +63,7 @@ const operators = [
   'keyword.operator.ternary',
 ]
 
-const functions = ['meta.function-call', 'new.expr', 'support.function']
+const functions = ['meta.function-call', 'new.expr']
 
 const attentionSeekers = [
   'comment',
@@ -80,6 +80,7 @@ const attentionSeekers = [
 const defaults = [
   'constant.language.import-export-all',
   'entity.name.function.tagged-template',
+  'entity.name.function',
   'meta.function-call.arguments',
   'keyword.control.flow',
   'keyword.control.loop',
