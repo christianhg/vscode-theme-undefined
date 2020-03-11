@@ -63,7 +63,7 @@ const operators = [
   'keyword.operator.ternary',
 ]
 
-const functions = ['meta.function-call', 'new.expr']
+const functions = ['meta.function-call', 'new.expr', 'punctuation.decorator']
 
 const attentionSeekers = [
   'comment',

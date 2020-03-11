@@ -289,6 +289,12 @@
       }
     },
     {
+      "scope": "punctuation.decorator",
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
       "scope": "constant.language.import-export-all",
       "settings": {
         "foreground": "#ABB2BF"
