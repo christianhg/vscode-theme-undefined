@@ -307,6 +307,12 @@
       }
     },
     {
+      "scope": "entity.name.type.class",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
       "scope": "meta.definition.function",
       "settings": {
         "foreground": "#ABB2BF"
@@ -398,12 +404,6 @@
     },
     {
       "scope": "punctuation.separator.comma",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "support.class",
       "settings": {
         "foreground": "#ABB2BF"
       }

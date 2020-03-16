@@ -80,6 +80,7 @@ const attentionSeekers = [
 const defaults = [
   'constant.language.import-export-all',
   'entity.name.function.tagged-template',
+  'entity.name.type.class',
   'meta.definition.function',
   'meta.function-call.arguments',
   'keyword.control.flow',
@@ -96,7 +97,6 @@ const defaults = [
   'meta.template.expression',
   'punctuation.accessor',
   'punctuation.separator.comma',
-  'support.class',
   'support.constant',
   'support.type.property-name.css',
   'support.variable',
