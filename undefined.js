@@ -19,6 +19,7 @@ const cyan = color('#56B6C2')
 
 const nonEssentials = [
   'cast.expr.ts',
+  'entity.name.type.ts',
   'keyword.control.as.ts',
   'keyword.control.at-rule.import',
   'keyword.control.default',
@@ -34,7 +35,10 @@ const nonEssentials = [
   'meta.type.annotation',
   'meta.type.function.ts',
   'meta.type.function.ts',
+  'meta.type.function.return.ts',
+  'meta.type.parent.cover.ts',
   'meta.type.parameters.ts',
+  'meta.type.tuple.ts',
   'meta.var.expr',
   'punctuation.terminator.rule',
   'punctuation.terminator.statement',

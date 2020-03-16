@@ -43,6 +43,12 @@
       }
     },
     {
+      "scope": "entity.name.type.ts",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "keyword.control.as.ts",
       "settings": {
         "foreground": "#5C6370"
@@ -133,7 +139,25 @@
       }
     },
     {
+      "scope": "meta.type.function.return.ts",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
+      "scope": "meta.type.parent.cover.ts",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "meta.type.parameters.ts",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
+      "scope": "meta.type.tuple.ts",
       "settings": {
         "foreground": "#5C6370"
       }
