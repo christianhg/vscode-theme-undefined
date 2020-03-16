@@ -91,6 +91,12 @@
       }
     },
     {
+      "scope": "keyword.operator.type.ts",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "keyword.operator.type.annotation.ts",
       "settings": {
         "foreground": "#5C6370"
@@ -176,6 +182,12 @@
     },
     {
       "scope": "punctuation.terminator.statement",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
+      "scope": "support.type.builtin.ts",
       "settings": {
         "foreground": "#5C6370"
       }
@@ -380,12 +392,6 @@
     },
     {
       "scope": "meta.arrow",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "meta.brace.round",
       "settings": {
         "foreground": "#ABB2BF"
       }

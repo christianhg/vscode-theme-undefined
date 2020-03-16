@@ -27,6 +27,7 @@ const nonEssentials = [
   'keyword.control.from',
   'keyword.control.import',
   'keyword.operator.expression.is',
+  'keyword.operator.type.ts',
   'keyword.operator.type.annotation.ts',
   'meta.definition.property',
   'meta.object.type',
@@ -42,6 +43,7 @@ const nonEssentials = [
   'meta.var.expr',
   'punctuation.terminator.rule',
   'punctuation.terminator.statement',
+  'support.type.builtin.ts',
   // Includes: `boolean`, `any`, `string`...
   'support.type.primitive.ts',
 ]
@@ -93,7 +95,6 @@ const defaults = [
   'keyword.operator.new',
   'meta.array.literal',
   'meta.arrow',
-  'meta.brace.round',
   'meta.definition.variable',
   'meta.function.expression',
   'meta.object-literal.key',
