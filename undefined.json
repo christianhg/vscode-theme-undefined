@@ -109,6 +109,12 @@
       }
     },
     {
+      "scope": "meta.indexer.declaration.ts",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "meta.object.type",
       "settings": {
         "foreground": "#5C6370"
@@ -164,12 +170,6 @@
     },
     {
       "scope": "meta.type.tuple.ts",
-      "settings": {
-        "foreground": "#5C6370"
-      }
-    },
-    {
-      "scope": "meta.var.expr",
       "settings": {
         "foreground": "#5C6370"
       }
