@@ -91,6 +91,18 @@
       }
     },
     {
+      "scope": "meta.definition.property",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
+      "scope": "meta.object.type",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "meta.return.type.arrow.ts",
       "settings": {
         "foreground": "#5C6370"

@@ -27,6 +27,8 @@ const nonEssentials = [
   'keyword.control.import',
   'keyword.operator.expression.is',
   'keyword.operator.type.annotation.ts',
+  'meta.definition.property',
+  'meta.object.type',
   'meta.return.type.arrow.ts',
   'meta.return.type.ts',
   'meta.type.annotation',
