@@ -19,7 +19,6 @@ const cyan = color('#56B6C2')
 
 const nonEssentials = [
   'cast.expr.ts',
-  'entity.name.type.ts',
   'keyword.control.as.ts',
   'keyword.control.at-rule.import',
   'keyword.control.default',
@@ -95,6 +94,7 @@ const defaults = [
   'keyword.operator.new',
   'meta.array.literal',
   'meta.arrow',
+  'meta.brace.round',
   'meta.definition.variable',
   'meta.function.expression',
   'meta.object-literal.key',
