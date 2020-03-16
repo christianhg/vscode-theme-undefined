@@ -80,7 +80,6 @@ const attentionSeekers = [
 const defaults = [
   'constant.language.import-export-all',
   'entity.name.function.tagged-template',
-  'entity.name.type.class',
   'meta.definition.function',
   'meta.function-call.arguments',
   'keyword.control.flow',
