@@ -61,6 +61,7 @@ const operators = [
   'keyword.operator.arithmetic',
   'keyword.operator.assignment',
   'keyword.operator.comparison',
+  'keyword.operator.decrement',
   'keyword.operator.expression',
   'keyword.operator.increment',
   'keyword.operator.list',

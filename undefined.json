@@ -283,6 +283,12 @@
       }
     },
     {
+      "scope": "keyword.operator.decrement",
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
       "scope": "keyword.operator.expression",
       "settings": {
         "foreground": "#D19A66"
