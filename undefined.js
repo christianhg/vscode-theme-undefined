@@ -79,6 +79,7 @@ const attentionSeekers = [
   'keyword.other.important',
   'variable.language.this',
   'variable.other.jsdoc',
+  'storage.type.class.jsdoc',
 ]
 
 /**
@@ -87,7 +88,7 @@ const attentionSeekers = [
  */
 const defaults = [
   'constant.language.import-export-all',
-  'entity.name.function.tagged-template',
+  'entity.name.function',
   'meta.definition.function',
   'meta.function-call.arguments',
   'keyword.control.flow',
@@ -107,6 +108,7 @@ const defaults = [
   'storage.type.class',
   'storage.type.function',
   'storage.type.interface',
+  'storage.type.property',
   'storage.type.type',
   'support.constant',
   'support.type.property-name.css',

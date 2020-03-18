@@ -259,6 +259,12 @@
       }
     },
     {
+      "scope": "storage.type.class.jsdoc",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
       "scope": "keyword.operator.arithmetic",
       "settings": {
         "foreground": "#D19A66"
@@ -349,7 +355,7 @@
       }
     },
     {
-      "scope": "entity.name.function.tagged-template",
+      "scope": "entity.name.function",
       "settings": {
         "foreground": "#ABB2BF"
       }
@@ -464,6 +470,12 @@
     },
     {
       "scope": "storage.type.interface",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "storage.type.property",
       "settings": {
         "foreground": "#ABB2BF"
       }
