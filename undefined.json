@@ -361,7 +361,7 @@
       }
     },
     {
-      "scope": "entity.name.function",
+      "scope": "entity.name.function.tagged-template",
       "settings": {
         "foreground": "#ABB2BF"
       }
