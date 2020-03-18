@@ -181,6 +181,12 @@
       }
     },
     {
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "support.type.builtin.ts",
       "settings": {
         "foreground": "#5C6370"
@@ -440,6 +446,30 @@
     },
     {
       "scope": "punctuation.separator.comma",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "storage.type.class",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "storage.type.function",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "storage.type.interface",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "storage.type.type",
       "settings": {
         "foreground": "#ABB2BF"
       }

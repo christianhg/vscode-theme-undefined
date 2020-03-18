@@ -42,6 +42,7 @@ const nonEssentials = [
   'meta.type.tuple.ts',
   'punctuation.terminator.rule',
   'punctuation.terminator.statement',
+  'storage.type',
   'support.type.builtin.ts',
   // Includes: `boolean`, `any`, `string`...
   'support.type.primitive.ts',
@@ -103,6 +104,10 @@ const defaults = [
   'meta.template.expression',
   'punctuation.accessor',
   'punctuation.separator.comma',
+  'storage.type.class',
+  'storage.type.function',
+  'storage.type.interface',
+  'storage.type.type',
   'support.constant',
   'support.type.property-name.css',
   'support.variable',
