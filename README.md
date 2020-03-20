@@ -26,7 +26,6 @@
 ## Deviants a.k.a. Known Issues
 
 - Array and object literals are not colored as "Literals".
-- `as string` typecasts are not colored as "Non-essentials".
 - The entire editor frame isn't fully styled yet.
 
 ## Motivations, Goals and Explanations
