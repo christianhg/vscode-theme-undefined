@@ -5,13 +5,9 @@
     "description": "undefined is not a theme",
     "publisher": "christianhg",
     "scripts": {
-        "build": "node undefined.js",
-        "prettier": "prettier --write *.{md,js}"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "npm run prettier"
-        }
+        "build": "npm run prettier-production && node undefined.js",
+        "prettier": "prettier --write *.{md,js}",
+        "prettier-production": "prettier --list-different *.{md,js}"
     },
     "repository": {
         "type": "git",
@@ -39,7 +35,6 @@
     },
     "devDependencies": {
         "color": "^3.1.0",
-        "husky": "^1.1.2",
         "jsonfile": "^5.0.0",
         "prettier": "^1.14.3"
     }
