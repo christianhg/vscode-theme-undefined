@@ -2,7 +2,7 @@
     "name": "undefined",
     "version": "1.1.18",
     "displayName": "undefined",
-    "description": "undefined is not a theme",
+    "description": "A dark, slightly opinionated, but otherwise no-nonsense theme for Visual Studio Code",
     "publisher": "christianhg",
     "scripts": {
         "build": "npm run prettier-production && node undefined.js",
