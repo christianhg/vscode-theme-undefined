@@ -6,8 +6,8 @@
     "publisher": "christianhg",
     "scripts": {
         "build": "npm run prettier-production && node undefined.js",
-        "prettier": "prettier --write *.{md,js}",
-        "prettier-production": "prettier --list-different *.{md,js}"
+        "prettier": "prettier --write '{*,**/*}.{md,js,ts}'",
+        "prettier-production": "prettier --list-different '{*,**/*}.{md,js,ts}'"
     },
     "repository": {
         "type": "git",
