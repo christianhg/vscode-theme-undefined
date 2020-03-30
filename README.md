@@ -37,12 +37,14 @@
 - Code comments should be used to explain code that is otherwise ambiguous. Therefore they are emphasized to make sure you don't miss them.
 - One of the great things about TypeScript is that you can get away with bloating your code with few annotations and still get type safety. Those you actually need to satisfy the compiler should provide minimal visual clutter to let you focus on the actual code.
 
-## Development (mostly for myself)
+## Development
 
-1. Edit the colours in `undefined.js`.
-2. Run `npm run build` to update `undefined.json`.
-3. Commit the change.
-4. Run `vsce publish <version-number>` to create a separate commit with the version bump.
+1. Clone the repo and open it in VS Code.
+2. Press `F5` to run an extension host
+3. Edit the colours in `./undefined.js`.
+4. Run `npm run build` to update `./themes/undefined-color-theme.json`.
+5. Commit the change.
+6. Run `vsce publish <version-number>` to create a separate commit with the version bump.
 
 ## Credits
 
