@@ -1,7 +1,6 @@
 const color = require('color')
 const jsonfile = require('jsonfile')
 
-const $schema = 'vscode://schemas/color-theme'
 const name = 'undefined'
 const type = 'dark'
 
@@ -18,38 +17,28 @@ const magenta = color('#C678DD')
 const cyan = color('#56B6C2')
 
 const nonEssentials = [
-  'cast.expr.ts',
-  'keyword.control.as.ts',
+  'keyword.control.as',
   'keyword.control.at-rule.import',
-  'keyword.control.default',
-  'keyword.control.export',
-  'keyword.control.from',
-  'keyword.control.import',
-  'keyword.operator.expression.is',
-  'keyword.operator.type.ts',
-  'keyword.operator.type.annotation.ts',
-  'meta.definition.property',
-  'meta.indexer.declaration.ts',
-  'meta.object.type',
-  'meta.return.type.arrow.ts',
-  'meta.return.type.ts',
-  'meta.type.annotation',
-  'meta.type.function.ts',
-  'meta.type.function.ts',
-  'meta.type.function.return.ts',
-  'meta.type.parent.cover.ts',
-  'meta.type.parameters.ts',
-  'meta.type.tuple.ts',
+  'meta.tag.metadata.doctype.html',
+  'punctuation.section.property-list.begin.bracket.curly',
+  'punctuation.section.property-list.end.bracket.curly',
   'punctuation.terminator.rule',
+  'keyword.operator.type',
+  'keyword.control.as',
+  'meta.import',
+  'meta.type.annotation',
+  'meta.type.parameters',
+  'punctuation.accessor',
+  'punctuation.section.embedded',
+  'punctuation.separator',
   'punctuation.terminator.statement',
-  'storage.type',
-  'support.type.builtin.ts',
-  // Includes: `boolean`, `any`, `string`...
-  'support.type.primitive.ts',
+  'punctuation.definition.binding-pattern',
+  'support.type',
+  'punctuation.support.type.property-name.begin',
+  'punctuation.support.type.property-name.end',
 ]
 
 const literals = [
-  // Includes booleans, null and undefined
   'constant.language',
   'constant.numeric',
   'string.quoted',
@@ -88,38 +77,17 @@ const attentionSeekers = [
  * need to reset.
  */
 const defaults = [
-  'constant.language.import-export-all',
-  'entity.name.function.tagged-template',
-  'meta.definition.function',
-  'meta.function-call.arguments',
-  'keyword.control.flow',
-  'keyword.control.loop',
   'keyword.operator.new',
-  'meta.array.literal',
-  'meta.arrow',
   'meta.brace.round',
-  'meta.definition.variable',
-  'meta.function.expression',
-  'meta.object-literal.key',
+  'punctuation.definition.parameters',
+  'punctuation.definition.template-expression',
+  'storage.type.function.arrow',
+  'support.class',
+  'variable',
+  'constant.language.import-export-all',
+  'meta.array.literal',
   'meta.objectliteral',
-  'meta.parameters',
-  'meta.template.expression',
-  'punctuation.accessor',
-  'punctuation.separator.comma',
-  'storage.type.class',
-  'storage.type.function',
-  'storage.type.interface',
-  'storage.type.property',
-  'storage.type.type',
-  'support.constant',
-  'support.type.property-name.css',
-  'support.variable',
-  'variable.language.arguments',
-  'variable.other.constant.property',
-  'variable.other.constant',
-  'variable.other.object',
-  'variable.other.property',
-  'variable.other.readwrite',
+  'support.type.property-name',
 ]
 
 const tokenColor = color => token => ({
@@ -130,7 +98,6 @@ const tokenColor = color => token => ({
 })
 
 const theme = {
-  $schema,
   name,
   type,
   colors: {
@@ -170,7 +137,6 @@ const theme = {
      */
     'activityBar.background': darkGrey.darken(0.4).hex(),
     'activityBar.foreground': lightGrey.hex(),
-
     /**
      * Left-side bar:
      */
@@ -211,7 +177,7 @@ const theme = {
   ],
 }
 
-const file = './undefined.json'
+const file = './themes/undefined-color-theme.json'
 
 jsonfile.writeFile(file, theme, { spaces: 2 }, err => {
   console.error(err)
