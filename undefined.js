@@ -87,6 +87,7 @@ const defaults = [
   'variable',
   'constant.language.import-export-all',
   'meta.array.literal',
+  'meta.arrow',
   'meta.objectliteral',
   'support.type.property-name',
 ]

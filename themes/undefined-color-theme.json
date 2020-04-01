@@ -366,6 +366,12 @@
       }
     },
     {
+      "scope": "meta.arrow",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
       "scope": "meta.objectliteral",
       "settings": {
         "foreground": "#ABB2BF"
