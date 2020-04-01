@@ -17,6 +17,7 @@ const magenta = color('#C678DD')
 const cyan = color('#56B6C2')
 
 const nonEssentials = [
+  'cast.expr',
   'keyword.control.as',
   'keyword.control.at-rule.import',
   'meta.tag.metadata.doctype.html',

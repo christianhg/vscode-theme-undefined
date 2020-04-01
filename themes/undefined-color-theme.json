@@ -36,6 +36,12 @@
   },
   "tokenColors": [
     {
+      "scope": "cast.expr",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "keyword.control.as",
       "settings": {
         "foreground": "#5C6370"
