@@ -90,6 +90,12 @@
       }
     },
     {
+      "scope": "keyword.control.export",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+    {
       "scope": "meta.import",
       "settings": {
         "foreground": "#5C6370"

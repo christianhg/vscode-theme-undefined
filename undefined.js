@@ -26,6 +26,7 @@ const nonEssentials = [
   'punctuation.terminator.rule',
   'keyword.operator.type',
   'keyword.control.as',
+  'keyword.control.export',
   'meta.import',
   'meta.type.annotation',
   'meta.type.parameters',
