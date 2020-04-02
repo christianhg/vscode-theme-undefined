@@ -28,6 +28,7 @@ const nonEssentials = [
   'keyword.control.as',
   'keyword.control.export',
   'meta.import',
+  'meta.return.type',
   'meta.type.annotation',
   'meta.type.parameters',
   'punctuation.accessor',
@@ -81,16 +82,16 @@ const attentionSeekers = [
 const defaults = [
   'keyword.operator.new',
   'meta.brace.round',
-  'punctuation.definition.parameters',
   'punctuation.definition.template-expression',
-  'storage.type.function.arrow',
   'support.class',
-  'variable',
   'constant.language.import-export-all',
   'meta.array.literal',
   'meta.arrow',
+  'meta.definition.property',
   'meta.objectliteral',
   'support.type.property-name',
+  'variable.object.property',
+  'variable.other',
 ]
 
 const tokenColor = color => token => ({
