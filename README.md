@@ -20,7 +20,7 @@
 - Green: **Literals** (`42`, `'foo'`, `/"[^"]*"/gus`, ...)
 - Yellow: **Operators** (`&&`, `===`, `<`, ...)
 - Red: **Attention seekers** (`/** comments */`, `this`, `debugger`)
-- Grey: **Non-essentials** (`: string`, `const`, `let`, `var`, `;`, ...)
+- Grey: **Non-essentials** (`: string`, `import`, `export`, `;`, ...)
 - White: **Defaults** (variables, properties and everything else)
 
 ## Deviants a.k.a. Known Issues
