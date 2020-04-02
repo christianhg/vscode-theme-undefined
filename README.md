@@ -49,4 +49,4 @@
 ## Credits
 
 - Lots of inspiration is drawn from the excellent [Alabaster Theme](https://github.com/tonsky/vscode-theme-alabaster).
-- Colours are taken from the [Atom One Dark syntax theme](https://github.com/atom/one-dark-syntax). Mainly because those are some pleasant and popular colours. But also to provide a consistent feel if you are using the theme in other contexts like [Atom One Dark for Hyper](https://github.com/mdo/hyperterm-atom-dark).
+- Colours are taken from the [Atom One Dark syntax theme](https://github.com/atom/atom/tree/master/packages/one-dark-syntax). Mainly because those are some pleasant and popular colours. But also to provide a consistent feel if you are using the theme in other contexts like [Atom One Dark for Hyper](https://github.com/mdo/hyperterm-atom-dark).
