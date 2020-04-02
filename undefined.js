@@ -1,20 +1,20 @@
-const color = require('color')
-const jsonfile = require('jsonfile')
+const color = require('color');
+const jsonfile = require('jsonfile');
 
-const name = 'undefined'
-const type = 'dark'
+const name = 'undefined';
+const type = 'dark';
 
 // https://color.hailpixel.com/#1E2127,282C34,5C6370,ABB2BF,E06C75,98C379,D19A66,61AFEF,C678DD,56B6C2
-const black = color('#1E2127')
-const darkGrey = color('#282C34')
-const grey = color('#5C6370')
-const lightGrey = color('#ABB2BF')
-const green = color('#98C379')
-const red = color('#E06C75')
-const yellow = color('#D19A66')
-const blue = color('#61AFEF')
-const magenta = color('#C678DD')
-const cyan = color('#56B6C2')
+const black = color('#1E2127');
+const darkGrey = color('#282C34');
+const grey = color('#5C6370');
+const lightGrey = color('#ABB2BF');
+const green = color('#98C379');
+const red = color('#E06C75');
+const yellow = color('#D19A66');
+const blue = color('#61AFEF');
+const magenta = color('#C678DD');
+const cyan = color('#56B6C2');
 
 const nonEssentials = [
   'cast.expr',
@@ -39,7 +39,7 @@ const nonEssentials = [
   'support.type',
   'punctuation.support.type.property-name.begin',
   'punctuation.support.type.property-name.end',
-]
+];
 
 const literals = [
   'constant.language',
@@ -47,7 +47,7 @@ const literals = [
   'string.quoted',
   'string.regexp',
   'string.template',
-]
+];
 
 const operators = [
   'keyword.operator.arithmetic',
@@ -62,9 +62,9 @@ const operators = [
   'keyword.operator.relational',
   'keyword.operator.spread',
   'keyword.operator.ternary',
-]
+];
 
-const functions = ['meta.function-call', 'new.expr', 'punctuation.decorator']
+const functions = ['meta.function-call', 'new.expr', 'punctuation.decorator'];
 
 const attentionSeekers = [
   'comment',
@@ -73,7 +73,7 @@ const attentionSeekers = [
   'variable.language.this',
   'variable.other.jsdoc',
   'storage.type.class.jsdoc',
-]
+];
 
 /**
  * Tokens that somehow have been overridden by other settings and therefore
@@ -92,14 +92,14 @@ const defaults = [
   'support.type.property-name',
   'variable.object.property',
   'variable.other',
-]
+];
 
 const tokenColor = color => token => ({
   scope: token,
   settings: {
     foreground: color.hex(),
   },
-})
+});
 
 const theme = {
   name,
@@ -179,10 +179,10 @@ const theme = {
     ...functions.map(tokenColor(cyan)),
     ...defaults.map(tokenColor(lightGrey)),
   ],
-}
+};
 
-const file = './themes/undefined-color-theme.json'
+const file = './themes/undefined-color-theme.json';
 
 jsonfile.writeFile(file, theme, { spaces: 2 }, err => {
-  console.error(err)
-})
+  console.error(err);
+});
