@@ -128,8 +128,9 @@ const defaults = [
   ...yaml.defaults,
 ];
 
-const tokenColor = color => token => ({
-  scope: token,
+const tokenColor = (name, tokens, color) => ({
+  name,
+  scope: tokens,
   settings: {
     foreground: color.hex(),
   },
@@ -206,12 +207,12 @@ const theme = {
     'tab.inactiveBackground': darkGrey.darken(0.2).hex(),
   },
   tokenColors: [
-    ...nonEssentials.map(tokenColor(grey)),
-    ...literals.map(tokenColor(green)),
-    ...attentionSeekers.map(tokenColor(red)),
-    ...operators.map(tokenColor(yellow)),
-    ...functions.map(tokenColor(cyan)),
-    ...defaults.map(tokenColor(lightGrey)),
+    tokenColor('Non-essentials', nonEssentials, grey),
+    tokenColor('Literals', literals, green),
+    tokenColor('Attention seekers', attentionSeekers, red),
+    tokenColor('Operators', operators, yellow),
+    tokenColor('Function calls', functions, cyan),
+    tokenColor('Defaults', defaults, lightGrey),
   ],
 };
 
