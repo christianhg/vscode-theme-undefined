@@ -16,6 +16,32 @@ const blue = color('#61AFEF');
 const magenta = color('#C678DD');
 const cyan = color('#56B6C2');
 
+const yaml = {
+  nonEssentials: [
+    'punctuation.definition.block.sequence.item.yaml',
+    'punctuation.definition.sequence.begin.yaml',
+    'punctuation.definition.sequence.end.yaml',
+    'punctuation.definition.mapping.begin.yaml',
+    'punctuation.definition.mapping.end.yaml',
+    'keyword.control.flow.block-scalar.folded.yaml',
+    'keyword.control.flow.block-scalar.literal.yaml',
+    'entity.other.document.begin.yaml',
+  ],
+  literals: [
+    'constant.other.timestamp.yaml',
+    'string.unquoted.block.yaml',
+    'string.unquoted.plain.in.yaml',
+    'string.unquoted.plain.out.yaml',
+  ],
+  attentionSeekers: [
+    'punctuation.definition.anchor.yaml',
+    'entity.name.type.anchor.yaml',
+    'punctuation.definition.alias.yaml',
+    'variable.other.alias.yaml',
+  ],
+  defaults: ['entity.name.tag.yaml'],
+};
+
 const nonEssentials = [
   'cast.expr',
   'keyword.control.as',
@@ -39,6 +65,8 @@ const nonEssentials = [
   'support.type',
   'punctuation.support.type.property-name.begin',
   'punctuation.support.type.property-name.end',
+
+  ...yaml.nonEssentials,
 ];
 
 const literals = [
@@ -47,6 +75,8 @@ const literals = [
   'string.quoted',
   'string.regexp',
   'string.template',
+
+  ...yaml.literals,
 ];
 
 const operators = [
@@ -73,6 +103,8 @@ const attentionSeekers = [
   'variable.language.this',
   'variable.other.jsdoc',
   'storage.type.class.jsdoc',
+
+  ...yaml.attentionSeekers,
 ];
 
 /**
@@ -92,6 +124,8 @@ const defaults = [
   'support.type.property-name',
   'variable.object.property',
   'variable.other',
+
+  ...yaml.defaults,
 ];
 
 const tokenColor = color => token => ({
