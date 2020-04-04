@@ -25,7 +25,7 @@
 
 ## Deviants a.k.a. Known Issues
 
-- Array and object literals are not colored as "Literals".
+- Array and object literals are not coloured as "Literals".
 - The entire editor frame isn't fully styled yet.
 
 ## Motivations, Goals and Explanations
