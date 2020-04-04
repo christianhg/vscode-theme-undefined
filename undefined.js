@@ -16,6 +16,17 @@ const blue = color('#61AFEF');
 const magenta = color('#C678DD');
 const cyan = color('#56B6C2');
 
+const css = {
+  attentionSeekers: ['meta.function.variable.css', 'variable.css'],
+  functions: ['support.function.misc.css'],
+  defaults: [
+    'punctuation.section.function.begin.bracket.round.css',
+    'punctuation.section.function.end.bracket.round.css',
+    'support.type.vendored.property-name.css',
+  ],
+  nonEssentials: ['punctuation.definition.entity.css'],
+};
+
 const yaml = {
   nonEssentials: [
     'punctuation.definition.block.sequence.item.yaml',
@@ -66,6 +77,7 @@ const nonEssentials = [
   'punctuation.support.type.property-name.begin',
   'punctuation.support.type.property-name.end',
 
+  ...css.nonEssentials,
   ...yaml.nonEssentials,
 ];
 
@@ -94,7 +106,14 @@ const operators = [
   'keyword.operator.ternary',
 ];
 
-const functions = ['meta.function-call', 'new.expr', 'punctuation.decorator'];
+const functions = [
+  'meta.function-call',
+  'new.expr',
+  'punctuation.decorator',
+  'support.function',
+
+  ...css.functions,
+];
 
 const attentionSeekers = [
   'comment',
@@ -104,6 +123,7 @@ const attentionSeekers = [
   'variable.other.jsdoc',
   'storage.type.class.jsdoc',
 
+  ...css.attentionSeekers,
   ...yaml.attentionSeekers,
 ];
 
@@ -125,6 +145,7 @@ const defaults = [
   'variable.object.property',
   'variable.other',
 
+  ...css.defaults,
   ...yaml.defaults,
 ];
 

@@ -60,6 +60,7 @@
         "support.type",
         "punctuation.support.type.property-name.begin",
         "punctuation.support.type.property-name.end",
+        "punctuation.definition.entity.css",
         "punctuation.definition.block.sequence.item.yaml",
         "punctuation.definition.sequence.begin.yaml",
         "punctuation.definition.sequence.end.yaml",
@@ -99,6 +100,8 @@
         "variable.language.this",
         "variable.other.jsdoc",
         "storage.type.class.jsdoc",
+        "meta.function.variable.css",
+        "variable.css",
         "punctuation.definition.anchor.yaml",
         "entity.name.type.anchor.yaml",
         "punctuation.definition.alias.yaml",
@@ -133,7 +136,9 @@
       "scope": [
         "meta.function-call",
         "new.expr",
-        "punctuation.decorator"
+        "punctuation.decorator",
+        "support.function",
+        "support.function.misc.css"
       ],
       "settings": {
         "foreground": "#56B6C2"
@@ -154,6 +159,9 @@
         "support.type.property-name",
         "variable.object.property",
         "variable.other",
+        "punctuation.section.function.begin.bracket.round.css",
+        "punctuation.section.function.end.bracket.round.css",
+        "support.type.vendored.property-name.css",
         "entity.name.tag.yaml"
       ],
       "settings": {
