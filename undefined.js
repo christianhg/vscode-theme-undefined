@@ -27,6 +27,14 @@ const css = {
   nonEssentials: ['punctuation.definition.entity.css'],
 };
 
+const html = {
+  doctype: ['meta.tag.metadata.doctype.html'],
+};
+
+const scss = {
+  import: ['keyword.control.at-rule.import'],
+};
+
 const yaml = {
   nonEssentials: [
     'punctuation.definition.block.sequence.item.yaml',
@@ -53,31 +61,35 @@ const yaml = {
   defaults: ['entity.name.tag.yaml'],
 };
 
+const jsts = {
+  annotations: [
+    'cast.expr',
+    'keyword.operator.type',
+    'meta.return.type',
+    'meta.type.annotation',
+    'meta.type.parameters',
+    'support.type',
+  ],
+  importexport: ['keyword.control.as', 'keyword.control.export', 'meta.import'],
+};
+
 const nonEssentials = [
-  'cast.expr',
-  'keyword.control.as',
-  'keyword.control.at-rule.import',
-  'meta.tag.metadata.doctype.html',
   'punctuation.section.property-list.begin.bracket.curly',
   'punctuation.section.property-list.end.bracket.curly',
   'punctuation.terminator.rule',
-  'keyword.operator.type',
-  'keyword.control.as',
-  'keyword.control.export',
-  'meta.import',
-  'meta.return.type',
-  'meta.type.annotation',
-  'meta.type.parameters',
   'punctuation.accessor',
   'punctuation.section.embedded',
   'punctuation.separator',
   'punctuation.terminator.statement',
   'punctuation.definition.binding-pattern',
-  'support.type',
   'punctuation.support.type.property-name.begin',
   'punctuation.support.type.property-name.end',
 
   ...css.nonEssentials,
+  ...html.doctype,
+  ...jsts.annotations,
+  ...jsts.importexport,
+  ...scss.import,
   ...yaml.nonEssentials,
 ];
 
