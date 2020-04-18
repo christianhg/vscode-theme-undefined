@@ -131,6 +131,7 @@ const attentionSeekers = [
   'comment',
   'keyword.other.debugger',
   'keyword.other.important',
+  'variable.language.super',
   'variable.language.this',
   'variable.other.jsdoc',
   'storage.type.class.jsdoc',
