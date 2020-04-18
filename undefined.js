@@ -145,6 +145,7 @@ const attentionSeekers = [
  * need to reset.
  */
 const defaults = [
+  'entity.name.type.module',
   'keyword.operator.new',
   'meta.brace.round',
   'punctuation.definition.template-expression',
@@ -154,6 +155,7 @@ const defaults = [
   'meta.arrow',
   'meta.definition.property',
   'meta.objectliteral',
+  'support.constant',
   'support.type.property-name',
   'variable.object.property',
   'variable.other',
