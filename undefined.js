@@ -146,6 +146,7 @@ const attentionSeekers = [
  */
 const defaults = [
   'entity.name.type.module',
+  'keyword.control.flow',
   'keyword.operator.new',
   'meta.brace.round',
   'punctuation.definition.template-expression',
