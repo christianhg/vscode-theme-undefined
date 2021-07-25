@@ -69,6 +69,7 @@ const jsts = {
     'meta.type.annotation',
     'meta.type.parameters',
     'support.type',
+    'keyword.operator.expression.is.ts',
   ],
   importexport: ['keyword.control.as', 'keyword.control.export', 'meta.import'],
 };
